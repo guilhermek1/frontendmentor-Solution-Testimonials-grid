@@ -1,0 +1,198 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: gray: hsl(0, 0%, 81%);
+}
+
+/* END COMMON STYLES ================================= */
+
+/* CONTAINER */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 130rem;
+  height: 65rem;
+}
+/* END COPNTAINER */
+
+/* MAIN CONTAINER */
+.main {
+  width: 90%;
+  height: 55%;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* TOP */
+.top-container {
+  /* border: 2px solid green; */
+  display: flex;
+  align-self: flex-start;
+}
+
+/* END OF TOP */
+
+/* bot */
+.bot-container {
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+  /* border: solid 2px greenyellow; */
+}
+/* END OF BOT */
+
+/* side */
+.side {
+  width: 20%;
+  display: flex;
+  align-self: flex-start;
+  width: 35rem;
+  height: 67rem;
+}
+.card-5 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* END OF SIDE */
+
+/* cards */
+.card {
+  /* border: 2px solid purple; */
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: .5rem .5rem 3rem  rgb(153, 153, 153);
+}
+
+.card img {
+  border-radius: 5rem;
+  width: 5rem;
+}
+
+.card-big {
+  width: 70%;
+  height: 32.5rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.card-small {
+  width: 30%;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+
+.quote {
+  font-size: 2.5rem;
+  position: relative;
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.quote-paragraph {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  position: relative;
+  top: 2rem;
+}
+.side .quote-paragraph {
+  font-size: 1.6rem;
+}
+
+.top-container .quote-paragraph {
+  position: relative;
+  top: 0;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2rem;
+}
+
+.description {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 1rem 2rem;
+}
+
+.description p,
+h3 {
+  margin: 0;
+}
+
+/* STYLES */
+.paragraph {
+  color: hsl(0, 0%, 81%);
+}
+#daniel {
+  background-color: hsl(263, 55%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+#daniel .quote-paragraph {
+  color: hsl(0, 0%, 81%);;
+}
+
+
+#jonathan {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(210, 46%, 95%);
+}
+
+#jonathan .quote-paragraph {
+  color:hsl(0, 0%, 81%)
+}
+
+
+
+#bot-card-patrick {
+  background-color: hsl(219, 29%, 14%);
+  color: hsl(0, 0%, 81%)
+}
+#bot-card-patrick .quote, .name {
+  color: hsl(0, 0%, 100%)
+}
+#bot-card-patrick p {
+  font-size: 1.6rem;
+}
+
+
+
+
+#bot-card-jeanette {
+  color:  hsl(219, 29%, 14%)
+}
+#bot-card-jeanette .name{
+  color:  hsl(219, 29%, 14%)
+}
+#bot-card-jeanette .quote-paragraph{
+  color:  hsl(217, 19%, 35%)
+}
+
+.side {
+ color: hsl(219, 29%, 14%);
+}
+.side .name{
+ color: hsl(219, 29%, 14%);
+}
+/* end of cards */
+
